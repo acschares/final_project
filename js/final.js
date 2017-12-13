@@ -1,15 +1,28 @@
 $(document).ready(function(){
-  $('#contact-submit').click(function(event){
+  $("#jquery_form").submit(function(event){
     event.preventDefault();
 
-    var name = $('#name').val();
-    var email = $('#email').val();
-    var message = $('#message').val();
+    var data = {
+        "access_token": "y2jgnb2hqeitcko25k5d3z2a"
+    };
+	
+    var subject = $("#jquery_form" + " [name='subject']").val();
+    var message = $("#jquery_form" + " [name='text']").val();
 
-    alert(name);
-    alert(email);
-    alert(message);
+    data['subject'] = subject;
+    data['text'] = message;
 
-    alert("Your email was sent");
+    function onSuccess() {
+        alert("Email sent");
+    }
+
+    function onError(error) {
+        alert("Email failed to send");
+    }
+
+    $.post('https://postmail.invotes.com/send',
+        data,
+        onSuccess
+    ).fail(onError);
   })
 });
