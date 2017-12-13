@@ -1,6 +1,21 @@
 .cover-section {
-	background-color: lightgray;
 	text-align: center;
+	height: 400px;
+	background-image: url("../img/otter-cover.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.cover-name {
+	padding-top: 10px;
+}
+
+.title {
+	background: rgba(255,255,255,0.3);
+	margin-top: 150px;
+	border-style: solid;
+	color: white;
 }
 
 .main {
@@ -10,10 +25,14 @@
 	text-align: center;
 }
 
-.portfolio-row {
-	height: 200px;
+.portfolio-title {
+	height: 50px;
 	width: 100%;
 	background-color: lightgray;
+	text-align: center;
+}
+
+.project {
 	text-align: center;
 }
 
@@ -22,6 +41,11 @@
 	width: 100%;
 	background-color: lightgray;
 	text-align: center;
+}
+
+.header-nav {
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .main-title {
