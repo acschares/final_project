@@ -52,6 +52,10 @@ a.nav-link {
 	margin-top: 10px;
 }
 
+.portfolio-bg {
+	background-color: #d8dcec;
+}
+
 .project-divider {
 	border-color: #6c7896;
 	border-top-width: 2px;
