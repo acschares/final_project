@@ -70,8 +70,9 @@ a.nav-link {
 }
 
 .about-main {
-	margin-top: 50px;
-	margin-bottom: 40px;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	background-color: #d8dcec;
 }
 
 .about-me {
@@ -83,8 +84,9 @@ ul {
 }
 
 .contact-main {
-	margin-top: 50px;
-	margin-bottom: 40px;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	background-color: #d8dcec;
 }
 
 #form-submit {
