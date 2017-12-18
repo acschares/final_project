@@ -45,36 +45,25 @@
 	text-align: center;
 }
 
-.resource-row {
-	height: 200px;
-	width: 100%;
-	background-color: lightgray;
-	text-align: center;
-}
-
 .header-nav {
 	padding-left: 0px;
 	padding-right: 0px;
 }
 
-.main-title {
-	text-align: center;
-}
-
 .prof-photo {
-	text-align: left;
+	text-align: center;
 }
 
-.main-about {
+.about-me {
 	text-align: center;
+}
+
+ul {
+    list-style-position: inside;
 }
 
 .portfolio-section { 
-    text-decoration:underline;
-}
-
-.about-me-section {
-
+    text-decoration: underline;
 }
 
 .footer-author {
