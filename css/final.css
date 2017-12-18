@@ -69,6 +69,10 @@ ul {
     list-style-position: inside;
 }
 
+.contact-me {
+	margin-top: 10px;
+}
+
 #form-submit {
 	background-color: #6c7896;
 	border-color: #6c7896;
