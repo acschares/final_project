@@ -27,4 +27,11 @@ $(document).ready(function(){
         onSuccess
     ).fail(onError);
   })
+
+  $('#portfolio-link').click(function(event){
+    event.preventDefault();
+    var tag = $("#portfolio");
+    $('html,body').animate({scrollTop: tag.offset().top},'slow');
+  })
+
 });

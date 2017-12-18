@@ -1,7 +1,7 @@
 *{ font-family: 'Abel', sans-serif; }
 
 .navbar {
-	background: #6c7896;
+	background: #8d97a8;
 }
 
 .masthead-name {
@@ -81,8 +81,9 @@ a.nav-link {
 .about-main {
 	padding-top: 50px;
 	height: 100vh;
-	background-color: #d8dcec;
 	color: dimgray;
+	background-color: #dee5ef;
+}
 }
 
 .about-me {
