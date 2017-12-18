@@ -18,7 +18,7 @@ a.nav-link {
 
 .cover-section {
 	text-align: center;
-	height: 400px;
+	height: 900px;
 	background-image: url("../img/galaxy.jpeg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -49,6 +49,7 @@ a.nav-link {
 	width: 100%;
 	text-align: center;
 	color: #6c7896;
+	margin-top: 10px;
 }
 
 .project-divider {
