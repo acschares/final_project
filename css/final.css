@@ -66,6 +66,11 @@ ul {
     text-decoration: underline;
 }
 
+#form-submit {
+	background-color: #6c7896;
+	border-color: #6c7896;
+}
+
 .footer-author {
 	height: 25px;
 	width: 100%;
