@@ -1,5 +1,21 @@
 *{ font-family: libre baskerville; }
 
+.navbar {
+	background-color: #6c7896;
+}
+
+.masthead-name {
+}
+
+a.nav-link {
+	color: white;
+}
+
+.header-nav {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
 .cover-section {
 	text-align: center;
 	height: 400px;
@@ -24,13 +40,6 @@
 	color: white;
 }
 
-.main {
-	height: 400px;
-	width: 100%;
-	background-color: lightgray;
-	text-align: center;
-}
-
 .social-button {
 	color: white;
 	font-size: 2.25rem;
@@ -38,17 +47,14 @@
 
 .portfolio-title {
 	width: 100%;
-	background-color: lightgray;
+	background-color: #6c7896;
 	text-align: center;
+	text-decoration: underline;
+	color: white;
 }
 
 .project {
 	text-align: center;
-}
-
-.header-nav {
-	padding-left: 0px;
-	padding-right: 0px;
 }
 
 .prof-photo {
@@ -61,10 +67,6 @@
 
 ul {
     list-style-position: inside;
-}
-
-.portfolio-section { 
-    text-decoration: underline;
 }
 
 #form-submit {
