@@ -69,6 +69,11 @@ a.nav-link {
 	text-align: center;
 }
 
+.about-main {
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
 .about-me {
 	text-align: center;
 }
@@ -77,8 +82,9 @@ ul {
     list-style-position: inside;
 }
 
-.contact-me {
-	margin-top: 10px;
+.contact-main {
+	margin-top: 50px;
+	margin-bottom: 40px;
 }
 
 #form-submit {
