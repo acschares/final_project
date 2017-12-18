@@ -47,10 +47,13 @@ a.nav-link {
 
 .portfolio-title {
 	width: 100%;
-	background-color: #6c7896;
 	text-align: center;
-	text-decoration: underline;
-	color: white;
+	color: #6c7896;
+}
+
+.project-divider {
+	border-color: #6c7896;
+	border-top-width: 2px;
 }
 
 .project {
