@@ -1,4 +1,5 @@
 *{ font-family: libre baskerville; }
+
 .cover-section {
 	text-align: center;
 	height: 400px;
@@ -30,7 +31,7 @@
 	text-align: center;
 }
 
-.github-button {
+.social-button {
 	color: white;
 	font-size: 2.25rem;
 }
