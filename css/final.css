@@ -45,6 +45,15 @@ a.nav-link {
 	font-size: 2.25rem;
 }
 
+.fb-gram-button {
+	color: dimgray;
+	font-size: 2.25rem;
+}
+
+.resume-link {
+	color: dimgray;
+}
+
 .portfolio-title {
 	width: 100%;
 	text-align: center;
@@ -73,6 +82,7 @@ a.nav-link {
 	padding-top: 50px;
 	padding-bottom: 40px;
 	background-color: #d8dcec;
+	color: dimgray;
 }
 
 .about-me {
