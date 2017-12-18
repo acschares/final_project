@@ -74,6 +74,10 @@ a.nav-link {
 	text-align: center;
 }
 
+.project-link img:hover {
+	opacity: 0.5;
+}
+
 .prof-photo {
 	text-align: center;
 }
