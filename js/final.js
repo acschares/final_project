@@ -14,6 +14,8 @@ $(document).ready(function(){
 
     function onSuccess() {
         alert("Email sent");
+        $("#jquery_form" + " [name='subject']").val('');
+        $("#jquery_form" + " [name='text']").val('');
     }
 
     function onError(error) {
