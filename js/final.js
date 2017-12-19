@@ -1,12 +1,12 @@
 $(document).ready(function(){
-  $("#jquery_form").submit(function(event){  //run this when submit button is clicked
+  $("#jquery_form").submit(function(event){  //run this when form is submitted
     event.preventDefault(); //prevent default action
 
     //build data dictionary for API call to Postmail
     var data = {
         "access_token": "y2jgnb2hqeitcko25k5d3z2a"
     };
-	
+
     //get subject and message values from form
     var subject = $("#subject").val();
     var message = $("#message").val();
