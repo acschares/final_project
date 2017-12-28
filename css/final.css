@@ -19,7 +19,7 @@ a.nav-link {
 .cover-section {
 	text-align: center;
 	height: 100vh;
-	background-image: url("../img/galaxy.jpeg");
+	background-image: url("");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -86,7 +86,10 @@ a.nav-link {
 	padding-top: 50px;
 	height: 100vh;
 	color: dimgray;
-	background-color: #dee5ef;
+	background-image: url("../img/profilepicture.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 }
 
@@ -119,3 +122,4 @@ ul {
 	background-color: #6c7896;
 	color: white;
 }
+
